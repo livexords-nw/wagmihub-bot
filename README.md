@@ -98,7 +98,24 @@ Click the link below to get started:
 
 ---
 
-## 📥 Installation Steps
+## 📅 Requirements
+
+- **Minimum Python Version:** `Python 3.9+`
+- **Required Libraries:**
+  - colorama
+  - requests
+  - fake-useragent
+  - brotli
+  - chardet
+  - urllib3
+
+These are installed automatically when running:
+```bash
+pip install -r requirements.txt
+```
+---
+
+## 📅 Installation Steps
 
 ### Main Bot Installation
 
