@@ -1,14 +1,32 @@
+
 ---
 
 <h1 align="center">Wagmihub Bot</h1>
 
-<p align="center">Boost your productivity with Wagmihub Bot – your friendly automation tool that handles key tasks with ease!</p>
+<p align="center">
+  <strong>Boost your productivity with Wagmihub Bot – your friendly automation tool that handles key tasks with ease!</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/livexords-nw/wagmihub-bot/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/livexords-nw/wagmihub-bot/ci.yml?branch=main" alt="Build Status" />
+  </a>
+  <a href="https://github.com/livexords-nw/wagmihub-bot/releases">
+    <img src="https://img.shields.io/github/v/release/livexords-nw/wagmihub-bot" alt="Latest Release" />
+  </a>
+  <a href="https://github.com/livexords-nw/wagmihub-bot/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/livexords-nw/wagmihub-bot" alt="License" />
+  </a>
+  <a href="https://t.me/livexordsscript">
+    <img src="https://img.shields.io/badge/Telegram-Join%20Group-2CA5E0?logo=telegram&style=flat" alt="Telegram Group" />
+  </a>
+</p>
 
 ---
 
 ## 🚀 About the Bot
 
-Wagmihub Bot is your automation buddy designed to simplify daily operations. This bot takes over the repetitive tasks so you can focus on what really matters. With Wagmihub Bot, you get:
+Wagmihub Bot is your automation buddy designed to simplify daily operations. This bot takes over repetitive tasks so you can focus on what really matters. With Wagmihub Bot, you get:
 
 - **Daily Reward Check & Claim 🎁:**  
   Automatically check and claim your daily rewards.
@@ -37,7 +55,7 @@ Wagmihub Bot is built with flexibility and efficiency in mind – it's here to h
 
 ### v1.0.0 - Latest Update
 
-Features: multi account support, thread system, configurable delays, support proxy, daily reward check & claim, automatically solving tasks, automatic farming for abundant harvest, play exciting game and earn points
+Features include multi account support, thread system, configurable delays, support proxy, daily reward check & claim, automatically solving tasks, automatic farming for abundant harvest, and play exciting game to earn points.
 
 ---
 
@@ -113,7 +131,7 @@ Click the link below to get started:
    http://username:password@ip:port
    ```
 
-   - Only HTTP and HTTPS proxies are supported.
+   *Only HTTP and HTTPS proxies are supported.*
 
 6. **Run Bot**
 
@@ -123,18 +141,65 @@ Click the link below to get started:
 
 ---
 
-### 🔹 Want Free Proxies? You can obtain free proxies from [Webshare.io](https://www.webshare.io/).
+### 🔹 Want Free Proxies?  
+You can obtain free proxies from [Webshare.io](https://www.webshare.io/).
+
+---
+
+## 📂 Project Structure
+
+```
+wagmihub-bot/
+├── config.json         # Main configuration file
+├── query.txt           # File to input your query data
+├── proxy.txt           # (Optional) File containing proxy data
+├── main.py             # Main entry point to run the bot
+├── requirements.txt    # Python dependencies
+└── README.md           # This file!
+```
 
 ---
 
 ## 🛠️ Contributing
 
-This project is developed by **Livexords**. If you have ideas, questions, or want to contribute, please reach out!
+This project is developed by **Livexords**.  
+If you have ideas, questions, or want to contribute, please join our Telegram group for discussions and updates.  
+For contribution guidelines, please consider:
+
+- **Code Style:** Follow standard Python coding conventions.
+- **Pull Requests:** Test your changes before submitting a PR.
+- **Feature Requests & Bugs:** Report and discuss via our Telegram group.
 
 <div align="center">
   <a href="https://t.me/livexordsscript" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Livexords&logo=telegram&label=&color=2CA5E0&logoColor=white&style=for-the-badge" height="25" alt="Telegram Logo" />
+    <img src="https://img.shields.io/badge/Join-Telegram%20Group-2CA5E0?logo=telegram&style=for-the-badge" height="25" alt="Telegram Group" />
   </a>
 </div>
+
+---
+
+## 📖 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## 🔍 Usage Example
+
+After installation and configuration, simply run:
+
+```bash
+python main.py
+```
+
+You should see output indicating the bot has started its operations. For further instructions or troubleshooting, please check our Telegram group or open an issue in the repository.
+
+---
+
+## 📣 Community & Support
+
+For support, updates, and feature requests, join our Telegram group.  
+This is the central hub for all discussions related to Wagmihub Bot, including roadmap ideas and bug fixes.
 
 ---
